@@ -1,4 +1,5 @@
-
+Ques1:Find the minimum and maximum element in an array?
+	
 class  Javaarrayprograms
 {
 public int max(int[] array){
@@ -28,8 +29,95 @@ return min;
 	System.out.println("minimum of array is:" + m.max(array));
 		System.out.println("maximum of array is: " +m.min(array));
 	}
-	
-
 }
 
+Ques2:Write a program to Reverse the array?
+
 	
+class Reverseanarray 
+{
+	public static void main(String[] args) 
+	{
+      int []array ={4,6,2,7,8,9};
+	  System.out.println("original array :" );
+	 for(int i=0;i<array.length;i++){
+		 System.out.println(  array[i]+" ");
+	 }
+	System.out.println();
+	 
+System.out.println("reverse  array :");
+
+	for(int i=array.length-1;i>=0;i--)
+	{
+		System.out.println(array[i]+" ");
+	}
+	}
+}
+
+Ques3:wrie a program to sort an array?
+	class Sortingofanarray 
+{
+	public static void main(String[] args) 
+	{
+		int[]array=new int[]{55,87,65,45,64,34,83,1,3,6};
+		int temp=0;
+		System.out.println("original array:");
+		for(int i=0;i<array.length;i++)
+	System.out.println(array[i]);
+	
+	for(int i=0;i<array.length;i++){
+		for(int j=i+1;j<array.length;j++)
+		{
+			if(array[i]>array[j])
+			{
+				temp=array[i];
+				array[i]=array[j];
+				array[j]=temp;
+			}
+		}
+	}
+	System.out.println();
+	System.out.println("after sorting array:");
+	for(int i=0;i<array.length;i++){
+		System.out.println(array[i]);
+	}
+	}
+}
+
+Ques4:Find the occurence of an integer in the array[5,8,5,7,4,5]?
+
+
+Ques5:Move all negative element to one side of array[-1,6,8,7,-4,-3][7,8,6,-4,-3,-1]?
+	
+Ques6:Find duplicate in an array?
+	class Duplicatearray 
+{
+	public static void main(String[] args) 
+	{
+		int []array =new int []{7,8,4,9,6,3,2,5,9,9,9};
+		System.out.println("Duplicate elements in an array: ");
+		for(int i=0;i<array.length;i++){
+			for(int j=i+1;j<array.length;j++){
+				if(array[i]==array[j])
+					System.out.println(array[j]);
+			}
+		}
+
+	}
+}
+Ques7:Find factorial of a large number?
+Ques8:how to find common elements in three sorted array?
+Ques9:How to rearrange array in alternating positive and negitive numbers?
+Ques10:Find sum and product of all element in an array?
+		
+
+
+
+
+
+
+
+
+
+		
+
