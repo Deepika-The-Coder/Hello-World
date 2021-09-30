@@ -83,11 +83,6 @@ Ques3:wrie a program to sort an array?
 	}
 	}
 }
-
-Ques4:Find the occurence of an integer in the array[5,8,5,7,4,5]?
-
-
-Ques5:Move all negative element to one side of array[-1,6,8,7,-4,-3][7,8,6,-4,-3,-1]?
 	
 Ques6:Find duplicate in an array?
 	class Duplicatearray 
@@ -105,10 +100,6 @@ Ques6:Find duplicate in an array?
 
 	}
 }
-Ques7:Find factorial of a large number?
-Ques8:how to find common elements in three sorted array?
-Ques9:How to rearrange array in alternating positive and negitive numbers?
-Ques10:Find sum and product of all element in an array?
 		
 
 
